@@ -1,0 +1,318 @@
+body{
+	margin: 0;
+	paddding: 0;
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+/*	overflow-x: hidden;*/
+}
+@font-face{
+	font-family: fontawesome-webfont;
+	src: url(../fonts/fontawesome-webfont.ttf);
+}
+@font-face{
+	font-family: BaroqueScript;
+	src: url(../fonts/BaroqueScript.ttf);
+}
+@font-face{
+	font-family: glyphicons-halflings-regular;
+	src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+@font-face{
+	font-family: Cambria-Font-For-Windows;
+	src: url(../fonts/Cambria-Font-For-Windows.ttf);
+}
+.logo-text span{
+	overflow: hidden !important;
+}
+.hero-section{
+	background-image: url(../images/hero-banner-realfirstaid-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 0 ;
+}
+.logo-header:before{
+	content: "";
+	clear: both;
+	display: block;
+}
+.logo-header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.logo-header{
+	margin-top: 0;
+	position: absolute;
+	z-index: 1;
+	border-top: 89px solid #000;
+	border-right: 39px solid transparent;
+}
+.logo-header img{
+	width: 183px;
+    margin-left: 31px;
+    margin-top: -114px;
+}
+.navbar-toggle {
+    top: 0;
+}
+.main-nav{
+	margin-top: 49px;
+	background-color: #d10529;
+	padding: 18px;
+}
+.navigation li a{
+	color: #fff;
+}
+.navigation li{
+	margin-right: 8px;
+}
+.nav li a:focus, .nav li a:hover {
+    text-decoration: none;
+    background-color: #eee;
+    color: #333;
+}
+.footer-flex{
+	margin-top: 30px;
+}
+.phone-icon.pull-right {
+    background-color: #ffff;
+}
+.phone-icon i{
+	color: #d10529;
+	background-color: #ffff;
+	margin-top: 0;
+    margin-right: 2px;
+    border-radius: 3px;
+    font-size: 21px;
+    padding: 16px 40px 12px 75px;
+}
+._7news-logo{
+	margin-top: 40px;
+/*	margin-left: 84px;*/
+}
+h1 .real{
+	color: #d10529;
+/*	font-family: Tahoma,Verdana,Segoe,sans-serif; */
+	font-weight: 500;
+	transform:scale(1,2);
+}
+h1 .first-aid{
+	color: #fff;
+/*	font-family: Tahoma,Verdana,Segoe,sans-serif; */
+	font-weight: 500;
+	transform:scale(1,2);
+}
+.logo-text {
+/*    margin-left: 84px;*/
+}
+.logo-text h1{
+	font-size: 45px;
+	margin-top: 30px;
+}
+.logo-text h2{
+	color: #fff;
+	margin-top: 18px;
+    font-size: 19px;
+}
+.logo-text h3{
+	color: #fff;
+	margin-top: 30px;
+	font-size: 21px;
+}
+.logo-text .logo-btn {
+ 	width: 175px;
+	height: 0;
+	border-top: 32px solid #d10529;
+	border-right: 34px solid transparent;
+}
+.for-you-content .logo-btn{
+ 	width: 113px;
+	height: 0;
+	border-top: 29px solid #d10529;
+	border-right: 29px solid transparent;
+	margin: auto;
+}
+.data-box .logo-btn{
+ 	width: 134px;
+	height: 0;
+	border-top: 41px solid #d10529;
+	border-right: 24px solid transparent;
+	float: left;
+}
+.data-box .logo-btn p{
+	color: #fff;
+    margin-top: -30px;
+}
+.for-you-content .logo-btn p{
+	margin-top: -21px;
+    font-size: 10px;
+}
+.logo-text .logo-btn p{
+	margin-top: -30px;
+    margin-left: 21px;
+    font-size: 19px;
+    color: #fff;
+}
+.header-bottom-logo {
+    margin-right: 40px;
+}
+.header-bottom-logo img{
+	padding: 10px;
+	width: 95px;
+}
+.stretch{
+	display:inline-block;
+}
+.title{
+	text-align: center;
+	color: #d10529;
+}
+.aboutRFA{
+	margin-top: 50px;
+}
+.title h4{
+	font-weight: bold;
+	font-size: 25px;
+    word-spacing: 5px;
+}
+.footer{
+	background-color: #d10529;
+}
+.vertical-menu a{
+	display: block;
+	color: #ed9ba9;
+	font-size: 14px;
+}
+.row p{
+	color: #ed9ba9;
+	font-size: 10px;
+}
+.row{
+	padding-bottom: 80px;
+}
+.row h4{
+	color: #fff;
+	font-size: 25px;
+}
+.icons-footer i{
+	color: #ef4267;
+	font-size: 40px;
+	padding: 8px;
+    margin-top: 47px;
+}
+.details p{
+	text-align: center;
+	font-size: 18px;
+    color: #795252;
+}
+.details{
+	margin-top: 50px;
+/*	margin-bottom: 60px;*/
+}
+/*.media-tab img{
+	width: 100%;
+    margin-top: 107px;
+}*/
+.media-tab{
+	/*background-image: url(../images/ipad.png);
+	background-size: cover;
+	width: 578px;
+    height: 405px;
+    margin-top: 100px;*/
+}
+.media-tab img{
+	width: 100%;
+	    margin-top: 103px;
+}
+.media-content img{
+	float: left;
+	margin-right: 31px;
+}
+.media-content h5{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+.media-content p{
+	color: #795252;
+}
+.media-content a{
+	font-size: 15px;
+	color: #d10529;
+	text-decoration: underline;
+}
+.section-for-you{
+	background-image: url(../images/sec-banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 0 ;
+}
+.for-you-content {
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.for-you .title{
+	margin-top: 80px;
+}
+.for-you-content p{
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+    margin-top: 20px;
+}
+.for-you-content h5{
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.for-you-img {
+    margin-top: 40px;
+}
+.for-you-img img{
+	width: auto;
+}
+.need-more{
+	margin-top: 50px;
+}
+.data-box {
+    margin-bottom: 100px;
+    margin-top: 52px;
+}
+.con-data img{
+	float: left;
+	margin-right: 10px;
+}
+.con-data p{
+	float: none;
+}
+.con-data h5{
+	font-weight: bold;
+	padding-top: 10px;
+}
+.about-courses{
+	background-color: #f2f2f2;
+	padding-bottom: 50px;
+}
+.about-content p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 2;
+}
+.about-course-content{
+	margin-top: 70px;
+}
+.about-course-content h4{
+	margin-bottom: 50px;
+}
+.clients-RFA{
+	margin-top: 60px;
+}
+.clients-RFA h4{
+	color: #333;
+}
+.logo img{
+	width: 100%;
+}
